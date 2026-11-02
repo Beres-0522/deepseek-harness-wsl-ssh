@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deepseek-harness": {
+      "command": "node",
+      "args": ["./server.bundle.mjs"]
+    }
+  }
+}

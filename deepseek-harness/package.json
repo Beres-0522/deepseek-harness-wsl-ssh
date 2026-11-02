@@ -1,0 +1,19 @@
+{
+  "name": "@trae-plugin/deepseek-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek harness: connect to remote Linux hosts over SSH and open remote directories as agent workspaces",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "ssh2": "1.17.0",
+    "zod": "4.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

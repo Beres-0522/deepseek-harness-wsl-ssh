@@ -1,0 +1,31 @@
+{
+  "name": "deepseek-harness",
+  "version": "0.1.0",
+  "description": "DeepSeek harness: connect to remote Linux hosts over SSH and open remote directories as agent workspaces (run commands, read/write files, search, upload/download).",
+  "author": {
+    "name": "Trae"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ssh",
+    "remote",
+    "workspace",
+    "harness",
+    "deepseek",
+    "linux"
+  ],
+  "instructions": "INSTRUCTIONS.md",
+  "interface": {
+    "displayName": "DeepSeek Harness",
+    "shortDescription": "SSH remote workspace harness for coding agents",
+    "longDescription": "Turns a remote Linux VM into an agent workspace over SSH. Provides tools to connect (password, private key, or ssh-agent), open a remote directory as the current workspace, run commands, read/write/edit files, glob/grep the remote tree, and upload/download between the local machine and the remote workspace.",
+    "developerName": "Trae",
+    "category": "Developer Tools",
+    "capabilities": [
+      "MCP"
+    ],
+    "defaultPrompt": [
+      "Connect to my Linux VM over SSH and open /srv/app as the workspace, then show the top-level files."
+    ]
+  }
+}

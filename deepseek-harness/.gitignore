@@ -1,0 +1,5 @@
+node_modules/
+server.bundle.mjs
+package-lock.json
+tests/
+*.log
