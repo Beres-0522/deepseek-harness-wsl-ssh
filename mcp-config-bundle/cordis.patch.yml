@@ -1,0 +1,10 @@
+- insert:
+    - id: deepseek-harness-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: deepseek-harness
+        transport: stdio
+        command: 'C:\Users\anjiang\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\node\bin\node.exe'
+        args:
+          - 'E:\lzh\deepseek skill\deepseek-harness-wsl-ssh\deepseek-harness\server.bundle.mjs'
+        failOnStartupError: true

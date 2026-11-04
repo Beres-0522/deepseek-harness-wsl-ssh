@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Harness SSH Workspace",
+    "description": "Connects the deepseek-harness MCP server (stdio) to turn a remote Linux host over SSH into the agent workspace: run commands, read/write/edit files, glob/grep, upload/download."
+  }
+}
